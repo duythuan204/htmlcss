@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  padding-top: 5rem;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 28rem;
+}
+
+.nav__list-item {
+  text-align: center;
+  padding-right: 4rem;
+}
+
+.nav__list-item-link {
+  color: white;
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 1.75rem;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav__icon {
+  display: flex;
+  padding-right: 28rem;
+}
+
+.nav__icon-item {
+  padding-right: 3rem;
+}
+
+.banner {
+  max-width: 100%;
+  height: 95vh;
+  background: url("./image/Rectangle1.png") center bottom / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner__title {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  line-height: 8.4rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.banner__content {
+  margin-top: 0.2rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+.banner__button {
+  background: #2091f9;
+  border-radius: 3.5rem;
+  width: 23rem;
+  height: 5rem;
+  color: white;
+  font-size: 1.75rem;
+}
+
+.banner__button:hover {
+  background: white;
+  color: #2091f9;
+}
+
+.features {
+  margin-top: 10rem;
+  padding: 0;
+}
+
+.features__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features__list-title {
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  line-height: 5.5rem;
+  margin-bottom: 0;
+  letter-spacing: 0.2rem;
+  line-height: 5.5rem;
+}
+
+.features__list-content {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.features__body {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13rem;
+}
+
+.features__body_1 {
+  text-align: center;
+  max-width: 25.5rem;
+  padding: 0;
+}
+
+.features__body_title {
+  display: block;
+  max-width: 22rem;
+  text-align: center;
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  line-height: 28px;
+  height: 5.6rem;
+}
+
+.features__body_content {
+  word-wrap: break-word;
+  display: block;
+  max-width: 20rem;
+  margin: auto;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.features__footer {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features_screen {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 4rem;
+}
+
+.features_ellipse {
+  position: absolute;
+  width: 18.8rem;
+  height: 18.88rem;
+}
+
+.features_play {
+  position: absolute;
+  width: 4rem;
+  height: 47rem;
+}
